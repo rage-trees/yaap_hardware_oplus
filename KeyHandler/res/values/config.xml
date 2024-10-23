@@ -19,5 +19,5 @@
     <item name="alert_slider_dialog_y" type="fraction">22%</item>
 
     <!-- Set to true if alert slider should show on the left -->
-    <item name="alert_slider_dialog_left" type="bool">true</item>
+    <item name="alert_slider_dialog_left" type="bool">false</item>
 </resources>
