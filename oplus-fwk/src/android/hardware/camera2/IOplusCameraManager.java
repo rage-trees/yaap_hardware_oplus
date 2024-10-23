@@ -20,12 +20,10 @@ public interface IOplusCameraManager extends IOplusCommonFeature {
         CMD_READ_MEM
     }
 
-    @Override
     default OplusFeatureList.OplusIndex index() {
         return OplusFeatureList.OplusIndex.IOplusCameraManager;
     }
 
-    @Override
     default IOplusCommonFeature getDefault() {
         return DEFAULT;
     }
